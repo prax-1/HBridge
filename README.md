@@ -7,6 +7,10 @@ The term H-bridge is derived from the typical graphical representation of such a
 
 Using the nomenclature above, the switches S1 and S2 should never be closed at the same time, as this would cause a short circuit on the input voltage source. The same applies to the switches S3 and S4. This condition is known as shoot-through.
 
+![](/images/images.png)
+
+This is the schematic which I have till now with several iterations, it is able to control motor direction with the help of just one SPDT switch on the right side, but the speed of the motor is low even after maximising it from the PWM generation side.
+
 ![Schematic](/images/schematic1.png)
 
 
@@ -14,6 +18,8 @@ In this project, I incorporated optocouplers to address a specific issue related
 
 ![](/images/s1.png)
 ![](/images/s2.png)
+
+
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
